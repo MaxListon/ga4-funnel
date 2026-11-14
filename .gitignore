@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+# Raw extracts stay local (re-pull with python -m ga4funnel.extract)
+data/raw/*
+!data/raw/.gitkeep
+# Keep the brief and tidy CSVs (small); skip parquet copies
+outputs/*.parquet

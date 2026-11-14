@@ -1,0 +1,22 @@
+model,channel,purchase_sessions,revenue_usd
+first_touch_window,Organic Search,2024,140021.0
+first_touch_window,Obfuscated,1416,95945.0
+first_touch_window,Referral,805,59111.0
+first_touch_window,Direct,377,27959.0
+first_touch_window,Unassigned,128,9261.0
+first_touch_window,Paid Search,85,6159.0
+first_touch_window,Email,12,978.0
+first_touch_window,Affiliates,1,23.0
+first_user_ga4,Obfuscated,1781,121840.0
+first_user_ga4,Organic Search,1250,90376.0
+first_user_ga4,Direct,1079,74533.0
+first_user_ga4,Referral,585,44512.0
+first_user_ga4,Paid Search,153,8196.0
+last_touch,Referral,1511,113854.0
+last_touch,Organic Search,1623,106606.0
+last_touch,Obfuscated,1335,91402.0
+last_touch,Direct,306,22643.0
+last_touch,Paid Search,47,3114.0
+last_touch,Email,23,1659.0
+last_touch,Affiliates,2,167.0
+last_touch,Unassigned,1,12.0

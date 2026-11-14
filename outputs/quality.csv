@@ -1,0 +1,16 @@
+check,value,note
+Sessions,360129,"Distinct (user_pseudo_id, ga_session_id) pairs"
+Users,270154,
+Date range,2020-11-01 to 2021-01-31,
+Sessions missing a session_start event,5272,Counted as sessions anyway; GA4 can drop session_start
+Sessions with obfuscated source/medium,57048,Sample replaces some values with <Other> / (data deleted)
+Purchase events,5692,
+Duplicate purchase events (same transaction_id),335,Re-fired purchase events; deduplicated before revenue is summed
+Purchase events with transaction_id '(not set)',906,
+Purchase events with no session id,0,Excluded from session funnel
+Add-to-cart sessions with no prior view_item,41,Open funnel counts them; closed funnel does not
+Purchases that skipped begin_checkout,3,
+Checkout sessions with no add_to_cart in the session,5145,of 11106 checkout sessions
+Purchase sessions with no add_to_cart in the session,2000,of 4848 purchase sessions
+...of which the user carted in an earlier session,252,Carts that persist across visits; the rest suggests add_to_cart is under-tracked
+add_shipping_info logged before begin_checkout,6862,median gap 0.9 ms: same page load; ordering uses a 5 s tolerance
